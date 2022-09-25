@@ -1,8 +1,12 @@
-import { sum } from './calc';
+import { sub, sum } from './calc';
 
-describe('sum module', () => {
+describe('operations basic module', () => {
   it('should add two numbers', () => {
     expect(sum(1, 2)).toBe(3);
+  });
+
+  it('should add two numbers', () => {
+    expect(sub(2, 1)).toBe(1);
   });
 });
 
